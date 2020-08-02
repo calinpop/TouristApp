@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "184152517404",
+    "firebase_url": "https://londontouristapp.firebaseio.com",
+    "project_id": "londontouristapp",
+    "storage_bucket": "londontouristapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184152517404:android:83a65c72bdd60fa1e5e8d9",
+        "android_client_info": {
+          "package_name": "com.london.touristapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "184152517404-na881q35ppd5g806nta64cd3nnuqpv5t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQmo-7FROJWm4EtS_kC36k-j_evu8XY9g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "184152517404-na881q35ppd5g806nta64cd3nnuqpv5t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

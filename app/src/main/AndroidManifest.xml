@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.london.touristapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activities.AddPark"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+            ></activity>
+        <activity android:name=".Activities.Parks"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"/>
+        <activity android:name=".Activities.Museum"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"/>
+        <activity
+            android:name=".Activities.ReadReviews"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".Activities.WriteReview"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".Activities.Detail"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".Activities.Attraction"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity android:name=".Activities.Register" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Activities.Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

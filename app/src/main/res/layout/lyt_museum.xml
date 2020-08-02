@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/crdParent"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="4dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+
+                <TextView
+                    android:id="@+id/txtPlaceName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tourist Place Name"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:paddingStart="10dp"
+                    android:textColor="#3E3C3C"
+                    android:fontFamily="sans-serif"
+                    />
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/img_placeholder"
+                android:layout_weight="1"
+                android:layout_gravity="end"
+                android:textColor="#1073C3"
+                android:text="ToDo"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/btnDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Show Detail"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="@color/white"
+                android:layout_gravity="end"
+                android:layout_margin="10dp"
+                />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

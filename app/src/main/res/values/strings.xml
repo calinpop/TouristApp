@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Tourist App</string>
+    <string name="enter_email">\t\tEnter Email</string>
+    <string name="enter_password">\t\tEnter Password</string>
+    <string name="first_name">\t\tFirst Name</string>
+    <string name="sur_name">\t\tSur Name</string>
+    <string name="attractions">Attractions</string>
+    <string name="museums">Museums</string>
+    <string name="parks_and_green_spaces">Parks and green spaces</string>
+    <string name="book_tour">Book Tour</string>
+    <string name="add_review">Add Review</string>
+    <string name="read_user_reviews">Read Reviews</string>
+    <string name="write_your_review_here">Write Your Review Here ...</string>
+    <string name="please_wait_submiting_review">Please Wait Submiting Your Review..</string>
+    <string name="log_out">Log Out</string>
+</resources>

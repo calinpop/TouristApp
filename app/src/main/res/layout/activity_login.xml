@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#353535"
+    tools:context=".Activities.Login">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/login_ico"
+        android:layout_marginTop="30dp"
+        />
+    <EditText
+        android:id="@+id/edttxtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginEnd="30dp"
+
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:paddingStart="10dp"
+        android:imeOptions="actionNext"
+        android:maxLines="1"
+        android:hint="@string/enter_email"
+        android:drawableStart="@drawable/email"
+
+        />
+
+    <EditText
+        android:id="@+id/edittextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:paddingStart="10dp"
+        android:imeOptions="actionNext"
+        android:maxLines="1"
+        android:inputType="textPassword"
+        android:hint="@string/enter_password"
+        android:drawableStart="@drawable/password"
+
+        />
+
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundedbutton"
+        android:text="Sign In"
+        android:onClick="onclick"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        />
+
+
+    <TextView
+        android:id="@+id/txtDontHaveAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Don't Have Any Account ? "
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:onClick="onclick"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_marginTop="19dp"
+        android:layout_marginStart="28dp"
+        />
+
+</LinearLayout>
