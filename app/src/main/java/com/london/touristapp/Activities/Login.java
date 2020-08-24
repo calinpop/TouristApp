@@ -40,7 +40,8 @@ public class Login extends AppCompatActivity {
     }
 
 
-    // OnClick Listener For Button Sign In And Text Dont Have ANy account
+    // OnClick Listener For Button Sign In And Text Dont Have any account
+    // Review this code
     public void onclick(View view)
     {
 
