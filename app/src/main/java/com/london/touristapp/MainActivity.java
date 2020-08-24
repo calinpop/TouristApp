@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
         if(view.getId()==R.id.Card_Musems) //If Museum Buttion is Clicked
         {
-            startActivity(new Intent(MainActivity.this, Museum.class));  //Go To Museum Class
+            startActivity(new Intent(MainActivity.this, Museum.class));  //Go To Museum
 
         }
 
