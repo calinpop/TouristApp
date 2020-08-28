@@ -18,7 +18,7 @@ import com.google.firebase.database.ValueEventListener;
 import com.london.touristapp.Adapter.AttractionAdapter;
 import com.london.touristapp.Adapter.MuseumAdapter;
 import com.london.touristapp.Model.ModelAttraction;
-import com.london.touristapp.Model.ModelMuseum;
+import com.london.touristapp.Model.ModelMuseum; //
 import com.london.touristapp.R;
 
 import java.util.ArrayList;
