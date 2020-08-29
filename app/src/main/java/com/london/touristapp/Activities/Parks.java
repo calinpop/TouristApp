@@ -105,7 +105,7 @@ public class Parks extends AppCompatActivity
 
                     Toast.makeText(Parks.this,"No Data Found",Toast.LENGTH_SHORT).show();
                 }
-
+                
             }
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
