@@ -100,6 +100,7 @@ public class MuseumAdapter extends RecyclerView.Adapter<MuseumAdapter.ViewHolder
             imgPlace = itemView.findViewById(R.id.image);
             btnDetail=itemView.findViewById(R.id.btnDetail);
         }
+       
 
     }
 
