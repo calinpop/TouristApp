@@ -31,12 +31,13 @@ public class Register extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
+        
 
         edttxtEmail=findViewById(R.id.edttxtEmail); //BindView EditText Email
         edttxtPassword=findViewById(R.id.edittextPassword); //BindView  Edittext Password
         editTextFirstName=findViewById(R.id.edttxtFirstName); //BindView EditText Firstname
         editTextSurName=findViewById(R.id.edttxtSurName); //BindView  Edittext SurName
-
+        editTextDOB=findViewById(R.id.edtxtDOB); //Blind Edittext FullName
 
         pb=new ProgressDialog(this);
     }
